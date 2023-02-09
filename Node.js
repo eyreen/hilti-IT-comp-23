@@ -6,7 +6,7 @@ const Equipment = require('./models/equipment');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost/smart-construction-site', {
+mongoose.connect('mongodb://localhost/buildEase', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -33,5 +33,5 @@ app.post('/equipment', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Smart construction site server started');
+  console.log('BuildEase site server started');
 });
