@@ -1,5 +1,5 @@
 # hilti-IT-comp-23
-# prototype-explanation
+# Prototype-explanation
 
 1) IoT-enabled Equipment Monitoring component/Backend: Node.js and React.js
 - To store information on construction equipment, this code implements a simple REST API using the Express.js framework and a MongoDB database.
@@ -11,10 +11,10 @@
 3) Frontend: listEquipment.js
 - A current web framework, such as React or Angular, might be utilized to provide a dynamic and user-friendly interface for the system's frontend.
 
-4) IoT Platform:
+4) IoT Platform: sendDataIot.py
 - A cloud-based platform, such as Amazon Web Services (AWS) IoT Core, might be utilized for the IoT platform to securely connect and control the sensors on construction equipment. 
 - The code uses the MQTT protocol to transfer data from an IoT device to AWS IoT Core.
 
-5) AI Services: aiServices.py
+5) AI Services: aiService.py
 - Cloud-based machine learning platforms such as Amazon SageMaker or Google Cloud AI Platform could be used to construct and deploy predictive models for equipment maintenance as part of the AI services. 
 - The Python code sample for training a simple machine learning model with the scikit-learn library.
